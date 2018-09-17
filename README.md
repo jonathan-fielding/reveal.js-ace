@@ -1,6 +1,8 @@
 reveal.js ACE Editor plugin
 ===========================
 
+**Forked from https://github.com/Gottox/reveal.js-ace**
+
 reveal.js-ace is a reveal.js plugin that allows to embed ACE editors in a
 reveal.js presentation.
 

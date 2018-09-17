@@ -5,7 +5,14 @@
  * Distributed under terms of the MIT license.
  */
 
-var RevealAce = window.RevealAce || (function() {
+(function (window, document, factory) {
+	if (typeof exports === 'object') {
+	  module.exports = factory;
+	}
+	else {
+	  window.RevealAce = factory(window, document, window.Reveal);
+	}
+  })(window, document, function (window, document, Reveal) {
 	if(!Reveal.ace) Reveal.ace = {};
 	function extend(o) {
 		for(var i = 1; i < arguments.length; i++)
@@ -99,4 +106,4 @@ var RevealAce = window.RevealAce || (function() {
 	}
 
 	return module;
-})();
+});

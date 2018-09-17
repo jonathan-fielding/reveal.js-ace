@@ -1,0 +1,27 @@
+{
+  "name": "reveal-ace-editor",
+  "version": "1.0.2",
+  "description": "Embeds the ace sourcecode editor into reveal.js",
+  "main": "ace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fielding/reveal.js-ace.git"
+  },
+  "keywords": [
+    "reveal",
+    "ace"
+  ],
+  "contributors": [
+    "Jonathan Fielding",
+    "Enno Boland"
+  ],
+  "author": "Enno Boland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathan-fielding/reveal.js-ace/issues"
+  },
+  "homepage": "https://github.com/jonathan-fielding/reveal.js-ace#readme"
+}
